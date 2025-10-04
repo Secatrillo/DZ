@@ -18,5 +18,13 @@ public class Main {
             System.out.println("Неверный ввод");
         }
         in.close();
+
+        ArabicCalcs c2 = new ArabicCalcs();
+        ArabicCalcs c3 = c2;
+        System.out.println(c2 == c3);
+
+        String s1 = new String("s");
+        String s2 = new String("s");
+        System.out.println(s1 == s2);
     }
 }

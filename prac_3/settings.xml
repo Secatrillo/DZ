@@ -1,0 +1,13 @@
+<settings>
+  <profiles>
+    <profile>
+      <id>any-id</id>
+      <properties>
+        <aether.connector.https.securityMode>insecure</aether.connector.https.securityMode>
+      </properties>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>any-id</activeProfile>
+  </activeProfiles>
+</settings>

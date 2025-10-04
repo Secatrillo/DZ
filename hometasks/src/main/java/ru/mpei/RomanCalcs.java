@@ -82,9 +82,10 @@ public class RomanCalcs extends Calculations {
             case 3 -> out.concat("XXX");
             case 2 -> out.concat("XX");
             case 1 -> out.concat("X");
-            default-> "";
+            default-> out.concat("");
         };
         out = switch (ones) {
+            
             case 9 -> out.concat("IX");
             case 8 -> out.concat("VIII");
             case 7 -> out.concat("VII");
@@ -94,7 +95,7 @@ public class RomanCalcs extends Calculations {
             case 3 -> out.concat("III");
             case 2 -> out.concat("II");
             case 1 -> out.concat("I");
-            default -> "";
+            default-> out.concat("");
         };
         return out;
     }
